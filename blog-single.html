@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>The Growing Appeal Of Serverless Security</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Blog Stylesheet File -->
+  <link href="css/blog.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav-subpage" class="subpage-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="index.html" class="smoothScroll">Home</a></li>
+          <li><a href="index.html#about" class="smoothScroll">About</a></li>
+          <li><a href="index.html#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="index.html#blog" class="smoothScroll">Blog</a></li>
+          <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+  <!-- start section main content -->
+  <div class="main-content paddsection">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="row">
+            <div class="container-main single-main">
+              <div class="col-md-12">
+                <div class="block-main mb-30">
+                  <a href="https://www.cloudreach.com/blog/growing-appeal-serverless-security/"><p class="separator">See it live here</p></a>
+
+                  <div class="content-main single-post padDiv">
+                    <div class="journal-txt">
+                      <h3><a href="#">Serverless Security</a></h3>
+                    </div>
+                    <div class="post-meta">
+                      <ul class="list-unstyled mb-0">
+                        <li class="author">by:<a href="#">Javier Merchan</a></li>
+                        <li class="date">date:<a href="#">March 31, 2018</a></li>
+                      </ul>
+                    </div>
+                    <p class="mb-30">Yesterday, I was working on this somewhat routine activity report of my project’s last six months stint. Afterwards, while I was reflecting on the big picture of what has changed during this time, I had the idea of what I think can be some nice blog post material.</p>
+                    <p class="mb-30">Please, let me explain why I found this activity report a bit humdrum: I had to go all the way through our AWS bills in order to map services and manpower and match costs to my project’s roadmap and budget. It was a fairly monotonous task on the surface but it helped me realize that change was big at the end of the day.</p>
+                    <p class="mb-30">Now, please let me explain some interesting facts about this report: nowadays we spend considerably less on security but we have built stronger protection against cyber-criminals. Now we have fewer unused resources, fewer people doing maintenance on them and, best of all, we are using more exciting tools.</p>
+                    <h4><a href="#">Before and after</a></h4>
+                    <p class="mb-30">Six months ago, my project’s security infrastructure was mainly serverful: threat detection was mainly performed on EC2 instances with security tools installed, running 24/7 (as intruders and robots don’t sleep at night).</p>
+                    <p class="mb-30">In the old days, all those servers required some maintenance duties and sometimes even some casual rushing after outdated or unpatched operating systems or applications exposing potential vulnerabilities.</p>
+                    <p class="mb-30">Nowadays, my project goes serverless-first. It took some time to get there, but my team is beginning to enjoy it smoothly: fewer infrastructure management and fewer maintenance. No more rushing for patches and no more afternight interventions.</p>
+                    <h4><a href="#">Serverless services</a></h4>
+                    <p class="mb-30">“There is still server in Serverless”, as some seasoned engineers say from time to time. They are absolutely right, but I prefer to think that now AWS manages all those servers on my behalf. In the medium term, when comparing figures from some months ago, both availability and uptime tend to be better on serverless.</p>
+                    <p class="mb-30">My team have replaced some server-based tools with their serverless counterparts. For instance, GuardDuty is now my project’s main threat detection tool. It is kind of recent so it may need an introduction; it is a managed service that monitors all the API Calls on your accounts as well as flow logs, and it generates alerts when abnormal activity is detected: brute force attacks, port probing, bitcoin mining, IAM misuse and other kinds of abuse. Furthermore, it uses AI for shorter reaction times as well as for detection of more sophisticated attacks as the days go by.</p>
+                    <p class="mb-30">GuardDuty worked well out-of-the-box, so the “nice to have” next step was to try out Macie. This managed service looks for indiscreet Personal Identifiable Information left on S3 buckets, and it is highly effective on that. It can be useful for GDPR compliance assessments and audits. Again, it is powered by AI.</p>
+                    <h4><a href="#">Just Serverless</a></h4>
+                    <p class="mb-30">Instead of processing GuardDuty’s findings manually, my team relies on automated remediations. These remediations are tailored for different kinds of threats, and they act on-the-spot minimizing the attack surface. This is only possible by using Lambda and its bigger brother: Step Functions.</p>
+                    <p class="mb-30">In this case, serverless enables us to spin up computing power automatically only when it is necessary, thus reducing the Total Cost of Ownership. More interestingly, we benefit from its asynchronous nature by spinning up a huge number of concurrent remediations in case we get under distributed attacks.</p>
+                    <p class="mb-30">The thing that I like best with serverless is that it reconciles me with my computer scientist background: it is loosely coupled (each Lambda function is, on average, about 30 lines long) and code is reused frequently (same Lambdas for multiple different finding types, Lambda layers for our libraries)</p>
+                    <h4><a href="#">Serverless all the way</a></h4>
+                    <p class="mb-30">In this project, managed services have worked well with Functions-as-code so far. Now, I would like to introduce a 100%-serverless tool.</p>
+                    <p class="mb-30">Cloud Custodian (c7n for the initiated) is an open source, no-servers-included compliance enforcement tool. It deploys Lambdas containing all its libraries onto target AWS accounts and works hand-in-hand with CloudWatch for scheduled execution.</p>
+                    <p class="mb-30">A Cloud Systems Developer’s job here is only to create YAML descriptions (policies on the c7n idiom) using Custodian’s own DSL for compliance rules so c7n can check them automatically. That way, resources can be verified constantly for compliance-readiness, thus minimizing the risk for potential security holes.</p>
+                    <p class="mb-30">When non-compliant resources are found, c7n can invoke Lambda functions for automating notification, archiving, remediation or integration with other tools and services.</p>
+                    <p class="mb-30">One can even reuse Lambda functions from GuardDuty’s remediations for automating compliance enforcement on Custodian’s findings. That way, one can get double protected for no extra cost.</p>
+                    <p class="mb-30">I am really impressed about this tool, because it can work using serverless assets exclusively. I believe that this architecture model can be used on many different application types, besides security and compliance.</p>
+                    <h4><a href="#">The bottomline</a></h4>
+                    <p class="mb-30">Please consider going Serverless Secure. It worked for my project and it gets better everyday. And it is fairly cheaper.</p>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  </div> -->
+  <!-- start section main content -->
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="https://www.linkedin.com/in/javier-merchan-4a78491b/"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://github.com/merchanjavier"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://twitter.com/merchanjavier2"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCGACui_KJxaCwOrx4QqGHmQ"><i class="ion-social-youtube"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights Folio. All rights reserved.</p>
+
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
